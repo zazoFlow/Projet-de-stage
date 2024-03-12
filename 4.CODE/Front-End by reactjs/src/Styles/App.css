@@ -1,0 +1,53 @@
+/* Start Main */
+@import url("./_main/btn_inp.css");
+@import url("./_main/display.css");
+@import url("./_main/margin_null.css");
+/* End Main */
+
+/* Start FA */
+@import url("./FA/css/all.min.css");
+/* End FA */
+
+/* Start Variables */
+@import url("./Variables.css");
+/* End Variables */
+
+/* Start Sous Styles */
+@import url("./SideBar/SideBar.css");
+@import url("./PageContent/PageContent.css");
+/* End Sous Styles */
+
+/* Start Root */
+@import url("./Root.css");
+/* End Root */
+
+/* Start Body */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* End Body */
+
+/* Start Root */
+#root {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 100%;
+  height: 100vh;
+}
+/* End Root */
+
+/* Start black-bg */
+#black-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000058;
+  z-index: 1;
+}
+/* End black-bg */
+
+/* Start $$$ */
+/* End $$$ */

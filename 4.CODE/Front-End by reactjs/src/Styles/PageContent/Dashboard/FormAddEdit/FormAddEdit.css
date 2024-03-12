@@ -1,0 +1,87 @@
+/* Start Form Add Edit */
+#form-add-edit {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  min-width: 50%;
+  background-color: var(--app-content-secondary-color);
+  box-shadow: var(--filter-shadow);
+  color: var(--app-content-main-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* End Form Add Edit */
+
+/* Start Inputs Container */
+#form-add-edit #inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* End Inputs Container */
+
+/* Start Select Container */
+#form-add-edit #select-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+/* End Select Container */
+
+/* Start Input */
+html.light #form-add-edit #inputs .inp-form {
+  background-color: white;
+  color: black;
+}
+html:not(.light) #form-add-edit #inputs .inp-form {
+  background-color: var(--app-bg);
+  color: white;
+}
+/* End Input */
+
+/* Start Buttons Container */
+#form-add-edit #btns {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* End Buttons Container */
+
+/* Start Button */
+#form-add-edit #btns .btn {
+  background-color: transparent;
+}
+/* End Button */
+
+/* Start Button Cancle */
+#form-add-edit #btns .btn.cancle {
+  color: gray;
+}
+html:not(.light) #form-add-edit #btns .btn.cancle:hover {
+  color: white;
+}
+html.light #form-add-edit #btns .btn.cancle:hover {
+  color: black;
+}
+/* End Button Cancle */
+
+/* Start Button Submit */
+#form-add-edit #btns .btn.submit {
+  color: #6290fdc2;
+  font-weight: bold;
+}
+#form-add-edit #btns .btn.submit:hover {
+  color: #6291fd;
+}
+#form-add-edit #btns .btn.submit.disable {
+  cursor: not-allowed !important;
+  color: #80808057 !important;
+}
+/* End Button Submit */
+
+/* Start $$$ */
+/* End $$$ */

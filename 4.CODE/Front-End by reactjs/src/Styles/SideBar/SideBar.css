@@ -1,0 +1,33 @@
+/* Start Side Bar */
+#side-bar {
+  padding: 20px 0 0;
+  background-color: var(--sidebar);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+/* End Side Bar */
+
+/* Start LOGO */
+#logo-container img {
+  width: 40px;
+}
+/* End LOGO */
+
+/* Start Sections [ul] */
+#sections {
+  list-style: none;
+  padding: 0;
+  color: var(--sidebar-link);
+}
+/* End Sections */
+
+/* Start Section */
+@import url("./Section.css");
+/* End Section */
+
+/* Start UserOptions */
+@import url("./UserOptions.css");
+/* End UserOptions */
+
+/* Start $$$ */
+/* End $$$ */

@@ -1,0 +1,91 @@
+/* Start Body */
+body {
+  background-color: #347ad1;
+}
+/* End Body */
+
+/* Start $$$ */
+/* End $$$ */
+
+/* Start Form Container */
+#authen-form-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End Form Container */
+
+/* Start Mix */
+#authen-form,
+#authen-form form {
+  display: flex;
+  flex-direction: column;
+}
+#authen-form {
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px 2px #00000057;
+}
+/* End Mix */
+
+/* Start Form */
+#authen-form form {
+  gap: 5px;
+}
+#authen-form form button.btn {
+  margin-top: 10px;
+  font-weight: bold;
+  border: 1px solid #347ad1;
+}
+#authen-form form button.btn:hover {
+  background-color: #347ad1;
+  color: white;
+}
+/* End Form */
+
+/* Start Text in Bottum Of Form */
+#authen-form #text {
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
+}
+#authen-form #text span {
+  color: rgb(100, 95, 95);
+  cursor: pointer;
+}
+#authen-form #text span:hover {
+  color: #347ad1;
+}
+/* End Text in Bottum Of Form */
+
+/* Start Msg Error */
+#authen-form #error {
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* End Msg Error */
+
+/* Start Details */
+#authen-form #details #title {
+  font-size: 20px;
+}
+#authen-form #details #data {
+  margin-top: 10px;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5px;
+  padding-inline: 10px;
+}
+#authen-form #details #data #label {
+  color: gray;
+}
+/* End Details */

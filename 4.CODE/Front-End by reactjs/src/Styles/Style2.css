@@ -1,0 +1,89 @@
+.light:root {
+  /* --app-bg: #fff; */
+  --sidebar: #3e6ad1 !important;
+  /* --sidebar-main-color: #1f1c2e; */
+  /* --sidebar-link: #1f1c2e; */
+  /* --sidebar-active-link: rgba(195, 207, 244, 1); */
+  /* --sidebar-hover-link: rgba(195, 207, 244, 0.5); */
+  /* --app-content-main-color: #1f1c2e; */
+  --app-content-secondary-color: #d9dde6 !important;
+  /* // // --app-content-secondary-color: #b8c5e2 !important; */
+  /* --filter-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+#page-content {
+  overflow: auto !important;
+}
+
+#root {
+  display: grid !important;
+  grid-template-rows: auto 1fr !important;
+  grid-template-columns: none !important;
+  min-width: 100% !important;
+  min-height: 100vh !important;
+  overflow: auto !important;
+}
+
+#side-bar {
+  padding: 10px !important;
+  background-color: var(--sidebar) !important;
+  display: grid !important;
+  grid-template-columns: auto 1fr auto !important;
+  grid-template-rows: none !important;
+  gap: 10px !important;
+}
+
+#logo-container {
+  margin-left: 0 !important;
+  color: var(--sidebar-main-color) !important;
+  margin-bottom: 0 !important;
+}
+
+#sections {
+  list-style: none !important;
+  padding: 0 !important;
+  color: var(--sidebar-link) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 30px !important;
+  margin: 0 !important;
+  margin-left: 20px !important;
+  font-weight: bold;
+}
+#section {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #ffffff6b !important;
+}
+#section.active {
+  border: none !important;
+  padding-right: 0px !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+#section:not(.active):hover {
+  color: #ffffff9f !important;
+  background-color: transparent !important;
+}
+#section #side-bar-icon {
+  display: none !important;
+}
+
+#user-options {
+  padding: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  gap: 10px !important;
+  color: var(--sidebar-main-color) !important;
+  color: white !important;
+}
+
+#user-options #user-img {
+  display: none !important;
+}

@@ -1,0 +1,46 @@
+/* Start Nav Bar */
+#nav-bar {
+  display: flex;
+  align-items: center;
+}
+#nav-bar.withowt-switcher {
+  justify-content: space-between;
+}
+/* End Nav Bar */
+
+/* Start Page Content Title */
+#nav-bar #page-content-title {
+  color: var(--app-content-main-color);
+}
+/* End Page Content Title */
+
+/* Start Icon Switche Theme */
+#nav-bar #switcher-theme-container {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-inline: auto 10px;
+  color: var(--app-content-main-color);
+}
+#nav-bar #switcher-theme-container svg {
+  fill: var(--app-content-main-color);
+}
+#nav-bar #switcher-theme-container.active svg {
+  fill: none;
+}
+/* End Icon Switche Theme */
+
+/* Start Btn Add */
+#add-item {
+  background-color: var(--action-color);
+  color: #fff;
+}
+#add-item:hover {
+  background-color: var(--action-color-hover);
+}
+/* End Btn Add */
+
+/* Start $$$ */
+/* End $$$ */

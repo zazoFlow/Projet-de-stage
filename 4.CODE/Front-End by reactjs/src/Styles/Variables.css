@@ -1,0 +1,16 @@
+/* Start Variables Style */
+.light:root {
+  --app-bg: #fff;
+
+  --sidebar: #f3f6fd;
+  --sidebar-main-color: #1f1c2e;
+  --sidebar-link: #1f1c2e;
+  --sidebar-active-link: rgba(195, 207, 244, 1);
+  --sidebar-hover-link: rgba(195, 207, 244, 0.5);
+
+  --app-content-main-color: #1f1c2e;
+  --app-content-secondary-color: #f3f6fd;
+
+  --filter-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* End Variables Style */

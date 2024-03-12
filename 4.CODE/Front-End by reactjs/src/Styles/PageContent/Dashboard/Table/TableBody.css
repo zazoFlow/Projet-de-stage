@@ -1,0 +1,53 @@
+/* Start tbody */
+#table #row.tbody:hover {
+  box-shadow: var(--filter-shadow);
+  background-color: var(--app-content-secondary-color);
+}
+/* End tbody */
+
+/* Start Columns Actions */
+#table #row.tbody #column.actions,
+#table #row.tbody #column.actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* End Columns Actions */
+
+/* Start Buttons Actions */
+#table #row.tbody #column.actions button {
+  background-color: transparent;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+  opacity: 0.3;
+}
+#table #row.tbody:hover #column.actions button {
+  opacity: 1;
+}
+#table #row.tbody #column.actions button:hover {
+  opacity: 0.8 !important;
+}
+/* End Buttons Actions */
+
+/* Start BG Buttons Actions By Type */
+#table #row.tbody #column.actions button.view {
+  background-color: rgba(195, 207, 244, 1);
+  color: #000;
+}
+#table #row.tbody #column.actions button.edit {
+  background-color: #2869ff;
+}
+#table #row.tbody #column.actions button.delete {
+  background-color: brown;
+}
+
+#table #row.tbody #column.actions button.disable {
+  opacity: 0.3 !important;
+  cursor: not-allowed !important;
+}
+/* End BG Buttons Actions By Type */
+
+/* Start $$$ */
+/* End $$$ */

@@ -1,0 +1,38 @@
+@import url("./TableHead.css");
+@import url("./TableBody.css");
+
+/* Start Table */
+#table {
+  margin-top: 20px;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+}
+/* End Table */
+
+/* Start Rows */
+#table #row.thead #column:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#table #row.thead #column:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#table #row {
+  border-radius: 3px;
+  transition: 0.3s;
+}
+/* End Rows */
+
+/* Start Columns */
+#table #row #column {
+  padding: 10px 20px;
+}
+/* End Columns */
+
+/* Start All Spans */
+#table #row #column span {
+  color: var(--app-content-main-color);
+}
+/* End All Spans */

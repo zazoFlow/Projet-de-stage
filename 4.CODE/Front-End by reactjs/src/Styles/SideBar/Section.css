@@ -1,0 +1,28 @@
+/* Start Section */
+#section {
+  margin-bottom: 5px;
+  padding: 10px 45px 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* End Section */
+
+/* Start Active Section */
+#section.active {
+  padding-right: 40px;
+  border-right: 5px solid var(--action-color);
+  background-color: var(--sidebar-active-link);
+}
+#section:not(.active):hover {
+  background-color: var(--sidebar-hover-link);
+}
+/* End Active Section */
+
+/* Start Section Icon */
+#section #side-bar-icon {
+  margin-bottom: 5px;
+  width: 20px;
+}
+/* End Section Icon */

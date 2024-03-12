@@ -1,0 +1,17 @@
+/* Start Thead */
+#table .thead {
+  background-color: var(--app-content-secondary-color);
+}
+/* End Thead */
+
+/* Start Thead Spans */
+#table .thead #column span {
+  font-weight: 600;
+}
+/* End Thead Spans */
+
+/* Start Thead Actions Title */
+#table #row.thead #column.actions {
+  text-align: center;
+}
+/* End Thead Actions Title */

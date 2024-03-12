@@ -1,0 +1,15 @@
+@import url("./NavBar.css");
+@import url("./SearchBar.css");
+@import url("./Sort.css");
+
+/* Start Search And Sorte */
+#search-and-sorte {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* End Search And Sorte */
+
+/* Start $$$ */
+/* End $$$ */

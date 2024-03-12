@@ -1,0 +1,61 @@
+/* Start Delete Confirm */
+#delete-confirm {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  min-width: 50%;
+  background-color: var(--app-content-secondary-color);
+  box-shadow: var(--filter-shadow);
+  color: var(--app-content-main-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* End Delete Confirm */
+
+/* Start Text */
+#delete-confirm #text {
+  text-align: center;
+}
+/* End Text */
+
+/* Start Buttons Container */
+#delete-confirm #delete-confirm-btns {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* End Buttons Container */
+
+/* Start Button */
+#delete-confirm #delete-confirm-btns button {
+  background-color: transparent;
+}
+/* End Button */
+
+/* Start Button Cancle */
+#delete-confirm #delete-confirm-btns button.cancle {
+  color: gray;
+}
+html:not(.light) #delete-confirm #delete-confirm-btns button.cancle:hover {
+  color: white;
+}
+html.light #delete-confirm #delete-confirm-btns button.cancle:hover {
+  color: black;
+}
+/* End Button Cancle */
+
+/* Start Button Delete */
+#delete-confirm #delete-confirm-btns button.delete {
+  color: rgba(165, 42, 42, 0.755);
+  font-weight: bold;
+}
+#delete-confirm #delete-confirm-btns button.delete:hover {
+  color: brown;
+}
+/* End $$$ */
+
+/* Start $$$ */
+/* End $$$ */

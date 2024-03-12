@@ -1,0 +1,23 @@
+@import url("./Dashboard/Dashboard.css");
+
+/* Start Page Content */
+#page-content {
+  padding: 20px;
+  background-color: var(--app-bg);
+  overflow: hidden;
+}
+/* End Page Content */
+
+/* Start No Section */
+#page-content.vide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#no-section {
+  color: gray;
+}
+/* End No Section */
+
+/* Start $$$ */
+/* End $$$ */

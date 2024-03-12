@@ -1,0 +1,17 @@
+#table #row.tbody #column.actions small {
+  color: gray !important;
+}
+
+html.light .confirmer-btn,
+html.light .emprunt-btn {
+  color: #3a3737 !important;
+}
+
+.confirmer-btn {
+  color: gray !important;
+}
+
+html.light .confirmer-btn:hover,
+.confirmer-btn:hover {
+  color: var(--action-color) !important;
+}

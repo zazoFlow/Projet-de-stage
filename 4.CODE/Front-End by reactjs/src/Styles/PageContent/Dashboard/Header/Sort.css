@@ -1,0 +1,21 @@
+/* Start Sort */
+#sort {
+  background-color: var(--app-content-secondary-color);
+  color: var(--app-content-main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid var(--app-content-secondary-color);
+  transition: 0.3s;
+}
+#sort:hover {
+  border-color: var(--action-color-hover);
+}
+#sort:focus {
+  border-color: var(--action-color);
+}
+/* End Sort */
+
+/* Start $$$ */
+/* End $$$ */
