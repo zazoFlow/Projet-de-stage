@@ -1,4 +1,26 @@
 /* Start Variables Style */
+:root {
+  --app-bg: #101827;
+
+  --sidebar: rgba(21, 30, 47, 1);
+  --sidebar-main-color: #fff; /* for icon container */
+  --sidebar-link: #fff;
+  --sidebar-active-link: #1d283c;
+  --sidebar-hover-link: #1a2539;
+
+  --app-content-main-color: #fff;
+  --app-content-secondary-color: #1d283c;
+
+  --filter-shadow: rgba(16, 24, 39, 0.8) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --filter-reset: #2c394f;
+
+  --action-color: #2869ff;
+  --action-color-hover: #6291fd;
+
+  --table-border: #1a2131;
+  --table-header: #1a2131;
+}
+
 .light:root {
   --app-bg: #fff;
 
